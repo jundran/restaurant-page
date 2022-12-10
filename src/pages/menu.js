@@ -8,7 +8,6 @@ export default function Menu() {
   menu.appendChild(title)
 
   MENU_ITEMS.forEach(i => menu.appendChild(menuEntry(i.title, i.price, i.image, i.text)))
-
   return menu
 }
 

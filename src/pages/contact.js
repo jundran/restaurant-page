@@ -1,6 +1,4 @@
 export default function Contact() {
-  const contact = document.createElement('div')
-
   const hoursTitle = document.createElement('h2')
   hoursTitle.textContent = 'Hours'
 
@@ -8,6 +6,7 @@ export default function Contact() {
   addressTitle.textContent = 'Address'
   addressTitle.style.marginTop = '64px'
 
+  const contact = document.createElement('div')
   contact.appendChild(hoursTitle)
   contact.appendChild(addInfo(hours))
   contact.appendChild(addressTitle)

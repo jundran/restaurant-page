@@ -35,5 +35,5 @@ export const MENU_ITEMS = [
     price: 6,
     image: m4,
     text: 'Etiam sit amet felis id eros tempor laoreet. Nulla imperdiet ante nec augue interdum ultricies. Etiam eu turpis lobortis ante. '
-  },
+  }
 ]
