@@ -1,3 +1,15 @@
+# restaurant-page
+
+## Live
+https://jundran.github.io/restaurant-page/
+
+## Description
+TOP - Restaurant page project  
+A basic restaurant page with tabbed browsing to practise programming using webpack without HTML. Other than a skelton index.html, this project contains only javaScript and CSS / SASS.
+
+## Project Requirements
+https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page
+
 ## Images
 ### Homepage
 https://unsplash.com/photos/nmpW_WwwVSc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
