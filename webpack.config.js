@@ -20,7 +20,11 @@ module.exports = {
         use: ['style-loader', 'css-loader']
       },
       {
-        test: /\.jpg$/i,
+        test: /\.(sass|scss)$/i,
+        use: ['style-loader', 'css-loader', 'sass-loader']
+      },
+      {
+        test: /\.(jpg|webp)$/i,
         type: 'asset/resource'
       }
     ]

@@ -1,7 +1,7 @@
 import Home from './pages/home.js'
 import Menu from './pages/menu.js'
 import Contact from './pages/contact.js'
-import './styles.css'
+import './styles/index.css'
 
 // FUNCTIONS
 function createPageHolder() {

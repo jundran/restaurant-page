@@ -1,0 +1,25 @@
+.menu-entry
+  margin-bottom: 16px
+
+  &:not(:last-child)
+    padding-bottom: 16px
+    border-bottom: 1px solid #000
+
+  h2, p
+    margin: 0
+
+  > div
+    display: grid
+    grid-template-columns: 1fr 1fr
+    column-gap: 32px
+
+  .description
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    gap: 16px
+
+  @media(max-width: 500px)
+    .menu-entry
+      > div
+        grid-template-columns: 1fr
